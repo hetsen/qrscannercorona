@@ -80,7 +80,7 @@ end
 if media.hasSource( media.Camera ) then
     media.capturePhoto( {listener = onComplete, destination = {baseDir=system.TemporaryDirectory, filename="image.jpg", type="image"} } )
 else
-   native.showAlert( "Corona", "This device does not have a camera.", { "OK" } )
+   native.showAlert( "Fail!", "No camera found.", { "OK" } )
 end
 
 --"http://zxing.org/w/decode?u="
