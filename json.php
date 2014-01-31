@@ -1,5 +1,9 @@
-<?
-/* This will make the answer into json */
+<?php
+/* This will make the answer into json 
+
+json.php?=
+
+*/
 ?>
 
 <?php
